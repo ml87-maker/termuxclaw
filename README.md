@@ -14,6 +14,15 @@
   <a href="https://ivy-landing-manlightus-9275-mlus.vercel.app/download">Download APK</a>
 </p>
 
+<p align="center">
+  <img src="./images/src_agent_worked.png" alt="Agent worked" width="160">
+  <img src="./images/src_terminal_tracking_from_chat.png" alt="Terminal tracking" width="160">
+  <img src="./images/src_terminal_live.png" alt="Live terminal" width="160">
+  <img src="./images/src_worpsapce_folder_manager.png" alt="Workspace manager" width="160">
+  <img src="./images/src_setting_provider.png" alt="Provider settings" width="160">
+  <img src="./images/src_context_token_tracking.png" alt="Context tracking" width="160">
+</p>
+
 ---
 
 ## What is TermuxClaw?
@@ -79,19 +88,6 @@ Real Actions
 | File interaction depth | ⚠️ | ✅ |
 | Mobile-first execution UX | ⚠️ | ✅ |
 | Artifact output | ⚠️ | ✅ |
-
----
-
-## Screens
-
-<p align="center">
-  <img src="./images/src_agent_worked.png" alt="Agent worked" width="180">
-  <img src="./images/src_terminal_tracking_from_chat.png" alt="Terminal tracking" width="180">
-  <img src="./images/src_terminal_live.png" alt="Live terminal" width="180">
-  <img src="./images/src_worpsapce_folder_manager.png" alt="Workspace manager" width="180">
-  <img src="./images/src_setting_provider.png" alt="Provider settings" width="180">
-  <img src="./images/src_context_token_tracking.png" alt="Context tracking" width="180">
-</p>
 
 ---
 
